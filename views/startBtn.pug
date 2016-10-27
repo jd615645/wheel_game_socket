@@ -1,0 +1,11 @@
+extends layout
+block css
+  link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css")
+  link(rel='stylesheet', type='text/css', href='css/startBtn.css')
+block content
+  #main.allCenter
+    a#startBtn.btn-floating.btn-large.waves-effect.waves-light.blue.lighten-1.allCenter
+      i.material-icons START
+block append js
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js")
+  script(src="./js/startBtn.js")

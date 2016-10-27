@@ -1,0 +1,36 @@
+body {
+  background-color: #b1c4d9;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif;
+}
+h1, h3, h4, p {
+  text-align: center;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+}
+canvas {
+  max-width: 620px;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 auto;
+}
+.allCenter {
+  flex-direction: column;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+#title {
+  height: 10%;
+}
+#main {
+  width: 100%;
+  height: 90%;
+}
+.modal {
+  text-align: center!important;
+}
+#prizeImage {
+  width: 100%;
+}

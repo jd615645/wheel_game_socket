@@ -1,0 +1,20 @@
+extends layout
+block css
+  link(rel='stylesheet', type='text/css', href='css/main.css')
+block content
+  #title.allCenter
+    h1 中興資訊社｜社博抽獎囉
+  #main.allCenter
+    .ui.container
+      #wheel
+    .ui.modal
+      i.close.icon
+      .header Congratulations!
+      .content
+        img#prizeImage(src='')
+        .description
+          h4 恭喜你抽到
+          h3#prizeName
+block append js
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/phaser/2.4.6/phaser.min.js', charset='utf-8')
+  script(src='./js/wheel.js', charset='utf-8')
